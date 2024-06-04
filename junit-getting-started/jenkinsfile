@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                git branch: 'main', url: 'https://github.com/bhavanidevops474/spring-boot-testing'
+                git branch: 'master', url: 'https://github.com/bhavanidevops474/junit-developer-guide/'
             }
             }
         }
